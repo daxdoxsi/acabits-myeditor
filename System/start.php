@@ -1,3 +1,3 @@
 <?php
 
-echo "System Started";
+require __DIR__.'/Engine/main_controller.inc.php';
