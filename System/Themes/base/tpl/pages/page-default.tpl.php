@@ -238,6 +238,7 @@
                             <a class="breadcrumb-item" href="#">Breadcrumb 1</a>
                             <span class="breadcrumb-item active">Breadcrumb 2</span>
                         </nav>
+                        <h1>Welcome to Acabits</h1>
                     </div>
                 </div>
                 <!-- Content goes Here -->
