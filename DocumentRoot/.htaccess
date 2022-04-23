@@ -2,7 +2,7 @@
 # Apache/PHP/Acabits settings:
 #
 
-SetEnv MAIN_LOADER "../system/start.php"
+SetEnv MAIN_LOADER "../System/start.php"
 
 # Protect files and directories from prying eyes.
 <FilesMatch "\.(ace|functions\.inc\.php|\.env|\.log|\.env-example|README\.md|LICENSE|\.gitignore|\.git|\.idea|\.vscode|engine|inc|info|install|make|module|profile|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl)(~|\.sw[op]|\.bak|\.orig|\.save)?$|^(\.(?!well-known).*|Entries.*|Repository|Root|Tag|Template|composer\.(json|lock)|web\.config)$|^#.*#$|\.php(~|\.sw[op]|\.bak|\.orig\.save)$">
