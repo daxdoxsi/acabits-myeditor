@@ -6,15 +6,15 @@ use Acabits\System\Template;
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Enlink - Admin Dashboard Template</title>
+    <title>Acabits - Application Developer</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <link rel="shortcut icon" href="/assets/images/logo/favicon.png">
 
     <!-- page css -->
 
     <!-- Core css -->
-    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="/assets/css/app.min.css" rel="stylesheet">
 
 </head>
 
@@ -65,41 +65,13 @@ use Acabits\System\Template;
         <!-- Page Container END -->
 
         <!-- Search Start-->
-        <div class="modal modal-left fade search" id="search-drawer">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header justify-content-between align-items-center">
-                        <h5 class="modal-title">Search</h5>
-                        <button type="button" class="close" data-dismiss="modal">
-                            <i class="anticon anticon-close"></i>
-                        </button>
-                    </div>
-                    <div class="modal-body scrollable">
-                        <div class="input-affix">
-                            <i class="prefix-icon anticon anticon-search"></i>
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <!-- Content goes Here -->
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php Template::loadComponent('search','base');?>
         <!-- Search End-->
 
         <!-- Quick View START -->
-        <div class="modal modal-right fade quick-view" id="quick-view">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header justify-content-between align-items-center">
-                        <h5 class="modal-title">Quick View</h5>
-                    </div>
-                    <div class="modal-body scrollable">
-                        <!-- Content goes Here -->
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php Template::loadComponent('quick-view','base');?>
         <!-- Quick View END -->
+
     </div>
 </div>
 
